@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C92DFCB31E49682500D0B9DD /* Playgrounds2017.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92DFCA91E49682500D0B9DD /* Playgrounds2017.framework */; };
+		C92DFCB81E49682500D0B9DD /* MersenneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCB71E49682500D0B9DD /* MersenneTests.swift */; };
+		C92DFCBA1E49682500D0B9DD /* Playgrounds2017.h in Headers */ = {isa = PBXBuildFile; fileRef = C92DFCAC1E49682500D0B9DD /* Playgrounds2017.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C92DFCC51E496A0100D0B9DD /* CwlRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCC41E496A0100D0B9DD /* CwlRandom.swift */; };
+		C92DFCC71E496A9C00D0B9DD /* NaiveSwiftTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCC61E496A9C00D0B9DD /* NaiveSwiftTranslation.swift */; };
+		C92DFCCA1E496BD400D0B9DD /* mt19937-64.c in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCC91E496BD400D0B9DD /* mt19937-64.c */; };
+		C92DFCCE1E49965A00D0B9DD /* NoArrayIndexes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCCD1E49965A00D0B9DD /* NoArrayIndexes.swift */; };
+		C92DFCD21E499DAD00D0B9DD /* NoArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCD11E499DAD00D0B9DD /* NoArrays.swift */; };
+		C92DFCD41E4A034D00D0B9DD /* CwlSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCD31E4A034D00D0B9DD /* CwlSignal.swift */; };
+		C92DFCDB1E4A03E000D0B9DD /* CwlDeferredWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCD51E4A03E000D0B9DD /* CwlDeferredWork.swift */; };
+		C92DFCDC1E4A03E000D0B9DD /* CwlDeque.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCD61E4A03E000D0B9DD /* CwlDeque.swift */; };
+		C92DFCDD1E4A03E000D0B9DD /* CwlDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCD71E4A03E000D0B9DD /* CwlDispatch.swift */; };
+		C92DFCDE1E4A03E000D0B9DD /* CwlExec.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCD81E4A03E000D0B9DD /* CwlExec.swift */; };
+		C92DFCDF1E4A03E000D0B9DD /* CwlMutex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCD91E4A03E000D0B9DD /* CwlMutex.swift */; };
+		C92DFCE01E4A03E000D0B9DD /* CwlResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCDA1E4A03E000D0B9DD /* CwlResult.swift */; };
+		C92DFCE21E4A041700D0B9DD /* CwlWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCE11E4A041700D0B9DD /* CwlWrappers.swift */; };
+		C939C7C81E4C1E3F0008935B /* Captures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C939C7C71E4C1E3F0008935B /* Captures.swift */; };
+		C939C7CA1E4C1E8E0008935B /* CaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C939C7C91E4C1E8E0008935B /* CaptureTests.swift */; };
+		C9D4D7561E4B3CAB00ABBD49 /* InvocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D4D7551E4B3CAB00ABBD49 /* InvocationTests.swift */; };
+		C9D4D7591E4B3E9600ABBD49 /* Invocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D4D7581E4B3E9600ABBD49 /* Invocations.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C92DFCB41E49682500D0B9DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C92DFCA01E49682500D0B9DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C92DFCA81E49682500D0B9DD;
+			remoteInfo = Playgrounds2017;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C92DFCA91E49682500D0B9DD /* Playgrounds2017.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Playgrounds2017.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92DFCAC1E49682500D0B9DD /* Playgrounds2017.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Playgrounds2017.h; sourceTree = "<group>"; };
+		C92DFCAD1E49682500D0B9DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C92DFCB21E49682500D0B9DD /* Playgrounds2017Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Playgrounds2017Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92DFCB71E49682500D0B9DD /* MersenneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MersenneTests.swift; sourceTree = "<group>"; };
+		C92DFCB91E49682500D0B9DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C92DFCC31E49691600D0B9DD /* Playgrounds2017-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Playgrounds2017-BridgingHeader.h"; sourceTree = "<group>"; };
+		C92DFCC41E496A0100D0B9DD /* CwlRandom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwlRandom.swift; sourceTree = "<group>"; };
+		C92DFCC61E496A9C00D0B9DD /* NaiveSwiftTranslation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaiveSwiftTranslation.swift; sourceTree = "<group>"; };
+		C92DFCC91E496BD400D0B9DD /* mt19937-64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "mt19937-64.c"; sourceTree = "<group>"; };
+		C92DFCCD1E49965A00D0B9DD /* NoArrayIndexes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoArrayIndexes.swift; sourceTree = "<group>"; };
+		C92DFCD11E499DAD00D0B9DD /* NoArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoArrays.swift; sourceTree = "<group>"; };
+		C92DFCD31E4A034D00D0B9DD /* CwlSignal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwlSignal.swift; sourceTree = "<group>"; };
+		C92DFCD51E4A03E000D0B9DD /* CwlDeferredWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwlDeferredWork.swift; sourceTree = "<group>"; };
+		C92DFCD61E4A03E000D0B9DD /* CwlDeque.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwlDeque.swift; sourceTree = "<group>"; };
+		C92DFCD71E4A03E000D0B9DD /* CwlDispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwlDispatch.swift; sourceTree = "<group>"; };
+		C92DFCD81E4A03E000D0B9DD /* CwlExec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwlExec.swift; sourceTree = "<group>"; };
+		C92DFCD91E4A03E000D0B9DD /* CwlMutex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwlMutex.swift; sourceTree = "<group>"; };
+		C92DFCDA1E4A03E000D0B9DD /* CwlResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwlResult.swift; sourceTree = "<group>"; };
+		C92DFCE11E4A041700D0B9DD /* CwlWrappers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwlWrappers.swift; sourceTree = "<group>"; };
+		C939C7C71E4C1E3F0008935B /* Captures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Captures.swift; sourceTree = "<group>"; };
+		C939C7C91E4C1E8E0008935B /* CaptureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureTests.swift; sourceTree = "<group>"; };
+		C9D4D7551E4B3CAB00ABBD49 /* InvocationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvocationTests.swift; sourceTree = "<group>"; };
+		C9D4D7581E4B3E9600ABBD49 /* Invocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invocations.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C92DFCA51E49682500D0B9DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92DFCAF1E49682500D0B9DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92DFCB31E49682500D0B9DD /* Playgrounds2017.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C92DFC9F1E49682500D0B9DD = {
+			isa = PBXGroup;
+			children = (
+				C92DFCAB1E49682500D0B9DD /* Playgrounds2017 */,
+				C92DFCB61E49682500D0B9DD /* Playgrounds2017Tests */,
+				C92DFCAA1E49682500D0B9DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C92DFCAA1E49682500D0B9DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C92DFCA91E49682500D0B9DD /* Playgrounds2017.framework */,
+				C92DFCB21E49682500D0B9DD /* Playgrounds2017Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C92DFCAB1E49682500D0B9DD /* Playgrounds2017 */ = {
+			isa = PBXGroup;
+			children = (
+				C92DFCD31E4A034D00D0B9DD /* CwlSignal.swift */,
+				C92DFCD51E4A03E000D0B9DD /* CwlDeferredWork.swift */,
+				C92DFCD61E4A03E000D0B9DD /* CwlDeque.swift */,
+				C92DFCD71E4A03E000D0B9DD /* CwlDispatch.swift */,
+				C92DFCD81E4A03E000D0B9DD /* CwlExec.swift */,
+				C92DFCD91E4A03E000D0B9DD /* CwlMutex.swift */,
+				C92DFCDA1E4A03E000D0B9DD /* CwlResult.swift */,
+				C92DFCE11E4A041700D0B9DD /* CwlWrappers.swift */,
+				C92DFCAC1E49682500D0B9DD /* Playgrounds2017.h */,
+				C92DFCAD1E49682500D0B9DD /* Info.plist */,
+			);
+			path = Playgrounds2017;
+			sourceTree = "<group>";
+		};
+		C92DFCB61E49682500D0B9DD /* Playgrounds2017Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C92DFCC81E496AA200D0B9DD /* Other */,
+				C9D4D7541E4B3C6F00ABBD49 /* Random Implementations */,
+				C9D4D7571E4B3E7C00ABBD49 /* Invocation Implementations */,
+				C939C7C61E4C1E280008935B /* Captures */,
+				C92DFCB71E49682500D0B9DD /* MersenneTests.swift */,
+				C9D4D7551E4B3CAB00ABBD49 /* InvocationTests.swift */,
+				C939C7C91E4C1E8E0008935B /* CaptureTests.swift */,
+			);
+			path = Playgrounds2017Tests;
+			sourceTree = "<group>";
+		};
+		C92DFCC81E496AA200D0B9DD /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C92DFCB91E49682500D0B9DD /* Info.plist */,
+				C92DFCC31E49691600D0B9DD /* Playgrounds2017-BridgingHeader.h */,
+				C92DFCC41E496A0100D0B9DD /* CwlRandom.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		C939C7C61E4C1E280008935B /* Captures */ = {
+			isa = PBXGroup;
+			children = (
+				C939C7C71E4C1E3F0008935B /* Captures.swift */,
+			);
+			name = Captures;
+			sourceTree = "<group>";
+		};
+		C9D4D7541E4B3C6F00ABBD49 /* Random Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				C92DFCC61E496A9C00D0B9DD /* NaiveSwiftTranslation.swift */,
+				C92DFCCD1E49965A00D0B9DD /* NoArrayIndexes.swift */,
+				C92DFCD11E499DAD00D0B9DD /* NoArrays.swift */,
+				C92DFCC91E496BD400D0B9DD /* mt19937-64.c */,
+			);
+			name = "Random Implementations";
+			sourceTree = "<group>";
+		};
+		C9D4D7571E4B3E7C00ABBD49 /* Invocation Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				C9D4D7581E4B3E9600ABBD49 /* Invocations.swift */,
+			);
+			name = "Invocation Implementations";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C92DFCA61E49682500D0B9DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92DFCBA1E49682500D0B9DD /* Playgrounds2017.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C92DFCA81E49682500D0B9DD /* Playgrounds2017 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C92DFCBD1E49682500D0B9DD /* Build configuration list for PBXNativeTarget "Playgrounds2017" */;
+			buildPhases = (
+				C92DFCA41E49682500D0B9DD /* Sources */,
+				C92DFCA51E49682500D0B9DD /* Frameworks */,
+				C92DFCA61E49682500D0B9DD /* Headers */,
+				C92DFCA71E49682500D0B9DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Playgrounds2017;
+			productName = Playgrounds2017;
+			productReference = C92DFCA91E49682500D0B9DD /* Playgrounds2017.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C92DFCB11E49682500D0B9DD /* Playgrounds2017Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C92DFCC01E49682500D0B9DD /* Build configuration list for PBXNativeTarget "Playgrounds2017Tests" */;
+			buildPhases = (
+				C92DFCAE1E49682500D0B9DD /* Sources */,
+				C92DFCAF1E49682500D0B9DD /* Frameworks */,
+				C92DFCB01E49682500D0B9DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C92DFCB51E49682500D0B9DD /* PBXTargetDependency */,
+			);
+			name = Playgrounds2017Tests;
+			productName = Playgrounds2017Tests;
+			productReference = C92DFCB21E49682500D0B9DD /* Playgrounds2017Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C92DFCA01E49682500D0B9DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Matt Gallagher ( http://cocoawithlove.com )";
+				TargetAttributes = {
+					C92DFCA81E49682500D0B9DD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S7YQ892G6G;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					C92DFCB11E49682500D0B9DD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S7YQ892G6G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C92DFCA31E49682500D0B9DD /* Build configuration list for PBXProject "Playgrounds2017" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C92DFC9F1E49682500D0B9DD;
+			productRefGroup = C92DFCAA1E49682500D0B9DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C92DFCA81E49682500D0B9DD /* Playgrounds2017 */,
+				C92DFCB11E49682500D0B9DD /* Playgrounds2017Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C92DFCA71E49682500D0B9DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92DFCB01E49682500D0B9DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C92DFCA41E49682500D0B9DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92DFCE01E4A03E000D0B9DD /* CwlResult.swift in Sources */,
+				C92DFCDB1E4A03E000D0B9DD /* CwlDeferredWork.swift in Sources */,
+				C92DFCDC1E4A03E000D0B9DD /* CwlDeque.swift in Sources */,
+				C92DFCDE1E4A03E000D0B9DD /* CwlExec.swift in Sources */,
+				C92DFCDD1E4A03E000D0B9DD /* CwlDispatch.swift in Sources */,
+				C92DFCDF1E4A03E000D0B9DD /* CwlMutex.swift in Sources */,
+				C92DFCE21E4A041700D0B9DD /* CwlWrappers.swift in Sources */,
+				C92DFCD41E4A034D00D0B9DD /* CwlSignal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92DFCAE1E49682500D0B9DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92DFCC71E496A9C00D0B9DD /* NaiveSwiftTranslation.swift in Sources */,
+				C9D4D7591E4B3E9600ABBD49 /* Invocations.swift in Sources */,
+				C939C7CA1E4C1E8E0008935B /* CaptureTests.swift in Sources */,
+				C92DFCB81E49682500D0B9DD /* MersenneTests.swift in Sources */,
+				C9D4D7561E4B3CAB00ABBD49 /* InvocationTests.swift in Sources */,
+				C92DFCCA1E496BD400D0B9DD /* mt19937-64.c in Sources */,
+				C92DFCC51E496A0100D0B9DD /* CwlRandom.swift in Sources */,
+				C939C7C81E4C1E3F0008935B /* Captures.swift in Sources */,
+				C92DFCD21E499DAD00D0B9DD /* NoArrays.swift in Sources */,
+				C92DFCCE1E49965A00D0B9DD /* NoArrayIndexes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C92DFCB51E49682500D0B9DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C92DFCA81E49682500D0B9DD /* Playgrounds2017 */;
+			targetProxy = C92DFCB41E49682500D0B9DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C92DFCBB1E49682500D0B9DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C92DFCBC1E49682500D0B9DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C92DFCBE1E49682500D0B9DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S7YQ892G6G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Playgrounds2017/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoawithlove.Playgrounds2017;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C92DFCBF1E49682500D0B9DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S7YQ892G6G;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Playgrounds2017/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoawithlove.Playgrounds2017;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C92DFCC11E49682500D0B9DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S7YQ892G6G;
+				INFOPLIST_FILE = Playgrounds2017Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoawithlove.Playgrounds2017Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Playgrounds2017Tests/Playgrounds2017-BridgingHeader.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C92DFCC21E49682500D0B9DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S7YQ892G6G;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				INFOPLIST_FILE = Playgrounds2017Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoawithlove.Playgrounds2017Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Playgrounds2017Tests/Playgrounds2017-BridgingHeader.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C92DFCA31E49682500D0B9DD /* Build configuration list for PBXProject "Playgrounds2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92DFCBB1E49682500D0B9DD /* Debug */,
+				C92DFCBC1E49682500D0B9DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C92DFCBD1E49682500D0B9DD /* Build configuration list for PBXNativeTarget "Playgrounds2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92DFCBE1E49682500D0B9DD /* Debug */,
+				C92DFCBF1E49682500D0B9DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C92DFCC01E49682500D0B9DD /* Build configuration list for PBXNativeTarget "Playgrounds2017Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92DFCC11E49682500D0B9DD /* Debug */,
+				C92DFCC21E49682500D0B9DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C92DFCA01E49682500D0B9DD /* Project object */;
+}
