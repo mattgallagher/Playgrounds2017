@@ -31,13 +31,13 @@ func emptyFunction() {
 func one(param: Result<Int>) {
 }
 
-func generic<T>(param: Result<T>) {
+func generic<T>(result: Result<T>) {
 }
 
-func generic<T>(param: inout Result<T>){
-	switch param {
-	case .success(let v): param = Result<T>.success(v)
-	case .failure(let e): param = Result<T>.failure(e)
+func generic<T>(result: inout Result<T>){
+	switch result {
+	case .success(let v): result = Result<T>.success(v)
+	case .failure(let e): result = Result<T>.failure(e)
 	}
 }
 

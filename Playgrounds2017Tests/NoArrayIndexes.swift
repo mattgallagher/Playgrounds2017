@@ -96,9 +96,7 @@ public struct NoArrayIndexesMersenneTwister: RandomWordGenerator {
 		var x: UInt64 = 0
 		
 		if mti >= NN {
-			mt_internal.withUnsafeMutableBytes { umrbp -> () in
-				let mt = umrbp.baseAddress!.assumingMemoryBound(to: UInt64.self)
-
+			mt_internal.withUnsafeMutableBufferPointer { mt -> () in
 				for i in 0..<(NN - MM) {
 					x = (mt[i] & UM) | (mt[i + 1] & LM)
 					mt[i] = mt[i + MM] ^ (x >> 1) ^ ((x & 1) * MATRIX_A)

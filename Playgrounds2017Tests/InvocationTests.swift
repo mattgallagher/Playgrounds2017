@@ -43,7 +43,7 @@ class InvocationTests: XCTestCase {
 		let r = Result<Int>.success(0)
 		measure { () -> Void in
 			for _ in 0..<invocationIterations {
-				generic(param: r)
+				generic(result: r)
 			}
 		}
 	}
@@ -52,7 +52,7 @@ class InvocationTests: XCTestCase {
 		var r = Result<Int>.success(0)
 		measure { () -> Void in
 			for _ in 0..<invocationIterations {
-				generic(param: &r)
+				generic(result: &r)
 			}
 		}
 	}
@@ -61,7 +61,7 @@ class InvocationTests: XCTestCase {
 		var r = Result<(Int, Int, Int)>.success((0, 1, 2) as (Int, Int, Int))
 		measure { () -> Void in
 			for _ in 0..<invocationIterations {
-				generic(param: &r)
+				generic(result: &r)
 			}
 		}
 	}

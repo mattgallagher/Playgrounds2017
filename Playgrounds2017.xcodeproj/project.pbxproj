@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C92DFCB31E49682500D0B9DD /* Playgrounds2017.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92DFCA91E49682500D0B9DD /* Playgrounds2017.framework */; };
-		C92DFCB81E49682500D0B9DD /* MersenneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCB71E49682500D0B9DD /* MersenneTests.swift */; };
 		C92DFCBA1E49682500D0B9DD /* Playgrounds2017.h in Headers */ = {isa = PBXBuildFile; fileRef = C92DFCAC1E49682500D0B9DD /* Playgrounds2017.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C92DFCC51E496A0100D0B9DD /* CwlRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCC41E496A0100D0B9DD /* CwlRandom.swift */; };
 		C92DFCC71E496A9C00D0B9DD /* NaiveSwiftTranslation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCC61E496A9C00D0B9DD /* NaiveSwiftTranslation.swift */; };
@@ -25,6 +24,10 @@
 		C92DFCE21E4A041700D0B9DD /* CwlWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92DFCE11E4A041700D0B9DD /* CwlWrappers.swift */; };
 		C939C7C81E4C1E3F0008935B /* Captures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C939C7C71E4C1E3F0008935B /* Captures.swift */; };
 		C939C7CA1E4C1E8E0008935B /* CaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C939C7C91E4C1E8E0008935B /* CaptureTests.swift */; };
+		C94F33391E5C5BDA0021A90C /* Step4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94F33381E5C5BDA0021A90C /* Step4Tests.swift */; };
+		C952E38C1E5C1BC400386F56 /* Step1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C952E38B1E5C1BC400386F56 /* Step1Tests.swift */; };
+		C952E38F1E5C1C2200386F56 /* Step2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C952E38E1E5C1C2200386F56 /* Step2Tests.swift */; };
+		C952E3931E5C1C5B00386F56 /* Step3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C952E3921E5C1C5B00386F56 /* Step3Tests.swift */; };
 		C9D4D7561E4B3CAB00ABBD49 /* InvocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D4D7551E4B3CAB00ABBD49 /* InvocationTests.swift */; };
 		C9D4D7591E4B3E9600ABBD49 /* Invocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D4D7581E4B3E9600ABBD49 /* Invocations.swift */; };
 /* End PBXBuildFile section */
@@ -44,7 +47,6 @@
 		C92DFCAC1E49682500D0B9DD /* Playgrounds2017.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Playgrounds2017.h; sourceTree = "<group>"; };
 		C92DFCAD1E49682500D0B9DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C92DFCB21E49682500D0B9DD /* Playgrounds2017Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Playgrounds2017Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C92DFCB71E49682500D0B9DD /* MersenneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MersenneTests.swift; sourceTree = "<group>"; };
 		C92DFCB91E49682500D0B9DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C92DFCC31E49691600D0B9DD /* Playgrounds2017-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Playgrounds2017-BridgingHeader.h"; sourceTree = "<group>"; };
 		C92DFCC41E496A0100D0B9DD /* CwlRandom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwlRandom.swift; sourceTree = "<group>"; };
@@ -62,6 +64,10 @@
 		C92DFCE11E4A041700D0B9DD /* CwlWrappers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CwlWrappers.swift; sourceTree = "<group>"; };
 		C939C7C71E4C1E3F0008935B /* Captures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Captures.swift; sourceTree = "<group>"; };
 		C939C7C91E4C1E8E0008935B /* CaptureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureTests.swift; sourceTree = "<group>"; };
+		C94F33381E5C5BDA0021A90C /* Step4Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step4Tests.swift; sourceTree = "<group>"; };
+		C952E38B1E5C1BC400386F56 /* Step1Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step1Tests.swift; sourceTree = "<group>"; };
+		C952E38E1E5C1C2200386F56 /* Step2Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step2Tests.swift; sourceTree = "<group>"; };
+		C952E3921E5C1C5B00386F56 /* Step3Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step3Tests.swift; sourceTree = "<group>"; };
 		C9D4D7551E4B3CAB00ABBD49 /* InvocationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvocationTests.swift; sourceTree = "<group>"; };
 		C9D4D7581E4B3E9600ABBD49 /* Invocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invocations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,13 +129,11 @@
 		C92DFCB61E49682500D0B9DD /* Playgrounds2017Tests */ = {
 			isa = PBXGroup;
 			children = (
+				C952E38A1E5C1B8400386F56 /* Step 1 */,
+				C952E38D1E5C1BF000386F56 /* Step 2 */,
+				C952E3901E5C1C4300386F56 /* Step 3 */,
+				C94F33371E5C5BC70021A90C /* Step 4 */,
 				C92DFCC81E496AA200D0B9DD /* Other */,
-				C9D4D7541E4B3C6F00ABBD49 /* Random Implementations */,
-				C9D4D7571E4B3E7C00ABBD49 /* Invocation Implementations */,
-				C939C7C61E4C1E280008935B /* Captures */,
-				C92DFCB71E49682500D0B9DD /* MersenneTests.swift */,
-				C9D4D7551E4B3CAB00ABBD49 /* InvocationTests.swift */,
-				C939C7C91E4C1E8E0008935B /* CaptureTests.swift */,
 			);
 			path = Playgrounds2017Tests;
 			sourceTree = "<group>";
@@ -137,6 +141,8 @@
 		C92DFCC81E496AA200D0B9DD /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				C939C7C61E4C1E280008935B /* Captures */,
+				C9D4D7571E4B3E7C00ABBD49 /* Invocation Implementations */,
 				C92DFCB91E49682500D0B9DD /* Info.plist */,
 				C92DFCC31E49691600D0B9DD /* Playgrounds2017-BridgingHeader.h */,
 				C92DFCC41E496A0100D0B9DD /* CwlRandom.swift */,
@@ -148,25 +154,52 @@
 			isa = PBXGroup;
 			children = (
 				C939C7C71E4C1E3F0008935B /* Captures.swift */,
+				C939C7C91E4C1E8E0008935B /* CaptureTests.swift */,
 			);
 			name = Captures;
 			sourceTree = "<group>";
 		};
-		C9D4D7541E4B3C6F00ABBD49 /* Random Implementations */ = {
+		C94F33371E5C5BC70021A90C /* Step 4 */ = {
 			isa = PBXGroup;
 			children = (
+				C94F33381E5C5BDA0021A90C /* Step4Tests.swift */,
+			);
+			name = "Step 4";
+			sourceTree = "<group>";
+		};
+		C952E38A1E5C1B8400386F56 /* Step 1 */ = {
+			isa = PBXGroup;
+			children = (
+				C92DFCC91E496BD400D0B9DD /* mt19937-64.c */,
 				C92DFCC61E496A9C00D0B9DD /* NaiveSwiftTranslation.swift */,
+				C952E38B1E5C1BC400386F56 /* Step1Tests.swift */,
+			);
+			name = "Step 1";
+			sourceTree = "<group>";
+		};
+		C952E38D1E5C1BF000386F56 /* Step 2 */ = {
+			isa = PBXGroup;
+			children = (
 				C92DFCCD1E49965A00D0B9DD /* NoArrayIndexes.swift */,
 				C92DFCD11E499DAD00D0B9DD /* NoArrays.swift */,
-				C92DFCC91E496BD400D0B9DD /* mt19937-64.c */,
+				C952E38E1E5C1C2200386F56 /* Step2Tests.swift */,
 			);
-			name = "Random Implementations";
+			name = "Step 2";
+			sourceTree = "<group>";
+		};
+		C952E3901E5C1C4300386F56 /* Step 3 */ = {
+			isa = PBXGroup;
+			children = (
+				C952E3921E5C1C5B00386F56 /* Step3Tests.swift */,
+			);
+			name = "Step 3";
 			sourceTree = "<group>";
 		};
 		C9D4D7571E4B3E7C00ABBD49 /* Invocation Implementations */ = {
 			isa = PBXGroup;
 			children = (
 				C9D4D7581E4B3E9600ABBD49 /* Invocations.swift */,
+				C9D4D7551E4B3CAB00ABBD49 /* InvocationTests.swift */,
 			);
 			name = "Invocation Implementations";
 			sourceTree = "<group>";
@@ -302,12 +335,15 @@
 				C92DFCC71E496A9C00D0B9DD /* NaiveSwiftTranslation.swift in Sources */,
 				C9D4D7591E4B3E9600ABBD49 /* Invocations.swift in Sources */,
 				C939C7CA1E4C1E8E0008935B /* CaptureTests.swift in Sources */,
-				C92DFCB81E49682500D0B9DD /* MersenneTests.swift in Sources */,
 				C9D4D7561E4B3CAB00ABBD49 /* InvocationTests.swift in Sources */,
 				C92DFCCA1E496BD400D0B9DD /* mt19937-64.c in Sources */,
+				C94F33391E5C5BDA0021A90C /* Step4Tests.swift in Sources */,
 				C92DFCC51E496A0100D0B9DD /* CwlRandom.swift in Sources */,
 				C939C7C81E4C1E3F0008935B /* Captures.swift in Sources */,
+				C952E3931E5C1C5B00386F56 /* Step3Tests.swift in Sources */,
+				C952E38F1E5C1C2200386F56 /* Step2Tests.swift in Sources */,
 				C92DFCD21E499DAD00D0B9DD /* NoArrays.swift in Sources */,
+				C952E38C1E5C1BC400386F56 /* Step1Tests.swift in Sources */,
 				C92DFCCE1E49965A00D0B9DD /* NoArrayIndexes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
