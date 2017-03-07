@@ -105,6 +105,24 @@ class InvocationTests: XCTestCase {
 		}
 	}
 
+	func testPassGenericReference() {
+		let bc = BasicClass()
+		measure { () -> Void in
+			for _ in 0..<invocationIterations {
+				passGenericReference(param: bc)
+			}
+		}
+	}
+
+	func testPassInoutGenericReference() {
+		var bc = BasicClass()
+		measure { () -> Void in
+			for _ in 0..<invocationIterations {
+				passGenericReference(param: &bc)
+			}
+		}
+	}
+
 	func testPassObjcReference() {
 		let bc = ObjcSubclass()
 		measure { () -> Void in

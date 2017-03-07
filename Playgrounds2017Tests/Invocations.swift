@@ -96,6 +96,12 @@ open class Subclass: ObjcSubclass {
 func passReference(param: BasicClass) {
 }
 
+func passGenericReference<T: AnyObject>(param: T) {
+}
+
+func passGenericReference<T: AnyObject>(param: inout T) {
+}
+
 func passObjcReference(param: ObjcSubclass) {
 }
 
